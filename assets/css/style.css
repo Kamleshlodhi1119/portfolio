@@ -1,14 +1,4 @@
-/**
-* Template Name: DevFolio
-* Updated: Nov 17 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   background-color: #f5f5f5;
   color: #4e4e4e;
@@ -26,12 +16,16 @@ h6 {
 a {
   color: #1e1e1e;
   text-decoration: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
 a:hover {
   color: #0078ff;
   text-decoration: none;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
@@ -58,13 +52,15 @@ a:hover {
 .work-box,
 .service-box,
 .paralax-mf {
-  box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+  -webkit-box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
 
 .box-shadow-a,
 .button:hover {
   text-decoration: none;
-  box-shadow: 0 0 0 4px #cde1f8;
+  -webkit-box-shadow: 0 0 0 4px #cde1f8;
+          box-shadow: 0 0 0 4px #cde1f8;
 }
 
 .display-5 {
@@ -203,7 +199,8 @@ a:hover {
   background-color: #fff;
   margin-bottom: 3rem;
   z-index: 2;
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.06), 0 2px 5px 0 rgba(0, 0, 0, 0.2);
 }
 
 @media (min-width: 768px) {
@@ -228,14 +225,20 @@ a:hover {
   border-radius: 50%;
   line-height: 1.6;
   margin: 0 15px 0 0;
-  box-shadow: 0 0 0 3px #0078ff;
+  -webkit-box-shadow: 0 0 0 3px #0078ff;
+          box-shadow: 0 0 0 3px #0078ff;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
   transition: all 500ms ease;
 }
 
 .socials .ico-circle:hover {
   background-color: #0078ff;
   color: #fff;
-  box-shadow: 0 0 0 3px #cde1f8;
+  -webkit-box-shadow: 0 0 0 3px #cde1f8;
+          box-shadow: 0 0 0 3px #cde1f8;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
   transition: all 500ms ease;
 }
 
@@ -270,7 +273,8 @@ a:hover {
   line-height: 1.55;
   margin: 0 auto;
   text-align: center;
-  box-shadow: 0 0 0 10px #0078ff;
+  -webkit-box-shadow: 0 0 0 10px #0078ff;
+          box-shadow: 0 0 0 10px #0078ff;
   display: block;
 }
 
@@ -291,6 +295,8 @@ a:hover {
   background: #cde1f8;
   border: 0px solid #cde1f8;
   display: block;
+  -webkit-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
   transition: all 0.6s ease-in-out;
   cursor: pointer;
 }
@@ -343,6 +349,8 @@ a:hover {
   width: 40px;
   height: 40px;
   border-radius: 50px;
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
   transition: all 0.4s;
 }
 
@@ -384,16 +392,31 @@ a:hover {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  animation: animate-preloader 1s linear infinite;
+  -webkit-animation: animate-preloader 1s linear infinite;
+          animation: animate-preloader 1s linear infinite;
+}
+
+@-webkit-keyframes animate-preloader {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
 }
 
 @keyframes animate-preloader {
   0% {
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
 
   100% {
-    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }
 
@@ -405,10 +428,13 @@ a:hover {
   vertical-align: middle;
   -webkit-user-select: none;
   -moz-user-select: none;
-  user-select: none;
+  -ms-user-select: none;
+      user-select: none;
   font-size: 1rem;
   border-radius: 0.3rem;
   border: 1px solid transparent;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
   transition: all 500ms ease;
   cursor: pointer;
 }
@@ -420,6 +446,8 @@ a:hover {
 .button:hover {
   background-color: #0062d3;
   color: #fff;
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
   transition: all 500ms ease;
 }
 
@@ -450,6 +478,8 @@ a:hover {
 # Header
 --------------------------------------------------------------*/
 #header {
+  -webkit-transition: all 0.5s;
+  -o-transition: all 0.5s;
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
@@ -468,7 +498,7 @@ a:hover {
 }
 
 #header .logo img {
-  max-height: 40px;
+  max-height: 30px;
 }
 
 #header.header-scrolled {
@@ -489,9 +519,13 @@ a:hover {
 .navbar ul {
   margin: 0;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   list-style: none;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navbar li {
@@ -505,14 +539,22 @@ a:hover {
 
 .navbar a,
 .navbar a:focus {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   color: #fff;
   font-size: 16px;
   font-weight: 600;
   padding: 0;
   white-space: nowrap;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
   letter-spacing: 0.4px;
   position: relative;
@@ -536,6 +578,8 @@ a:hover {
   width: 0;
   background-color: #fff;
   visibility: hidden;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
   transition: all 0.3s ease-in-out 0s;
 }
 
@@ -564,7 +608,10 @@ a:hover {
   opacity: 0;
   visibility: hidden;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  -webkit-box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+          box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -627,6 +674,8 @@ a:hover {
   cursor: pointer;
   display: none;
   line-height: 0;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -648,6 +697,8 @@ a:hover {
   left: 0;
   bottom: 0;
   background: rgba(78, 78, 78, 0.9);
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
   z-index: 999;
 }
@@ -668,6 +719,8 @@ a:hover {
   padding: 10px 0;
   background-color: #fff;
   overflow-y: auto;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -708,7 +761,8 @@ a:hover {
   opacity: 1;
   visibility: visible;
   background: #fff;
-  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+  -webkit-box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+          box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
 }
 
 .navbar-mobile .dropdown ul li {
@@ -834,8 +888,9 @@ a:hover {
 }
 
 .about-mf .about-img img {
-  margin-left: 10px;
-  box-shadow: 2px 2px 14px  #171717;
+  margin-left: 5px;
+  -webkit-box-shadow: 2px 2px 14px  #e6fafd;
+          box-shadow: 2px;
 }
 
 @media (min-width: 767px) {
@@ -873,10 +928,13 @@ a:hover {
 }
 
 .service-box:hover .ico-circle {
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
   transition: all 500ms ease;
   color: #fff;
   background-color: #0078ff;
-  box-shadow: 0 0 0 10px #cde1f8;
+  -webkit-box-shadow: 0 0 0 10px #cde1f8;
+          box-shadow: 0 0 0 10px #cde1f8;
 }
 
 .service-box .service-ico {
@@ -885,10 +943,18 @@ a:hover {
 }
 
 .service-box .ico-circle {
+  -webkit-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
   transition: all 500ms ease;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
   display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .service-box .ico-circle i {
@@ -929,7 +995,8 @@ a:hover {
   height: 60px;
   width: 60px;
   line-height: 1.5;
-  box-shadow: 0 0 0 10px #cde1f8;
+  -webkit-box-shadow: 0 0 0 10px #cde1f8;
+          box-shadow: 0 0 0 10px #cde1f8;
 }
 
 .counter-num .counter {
@@ -948,7 +1015,9 @@ a:hover {
 }
 
 .work-box:hover img {
-  transform: scale(1.3);
+  -webkit-transform: scale(1.3);
+      -ms-transform: scale(1.3);
+          transform: scale(1.3);
 }
 
 .work-img {
@@ -957,6 +1026,8 @@ a:hover {
 }
 
 .work-img img {
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
   transition: all 1s;
 }
 
@@ -1021,7 +1092,8 @@ a:hover {
 
 .portfolio-details .portfolio-info {
   padding: 30px;
-  box-shadow: 0px 0 30px rgba(78, 78, 78, 0.08);
+  -webkit-box-shadow: 0px 0 30px rgba(78, 78, 78, 0.08);
+          box-shadow: 0px 0 30px rgba(78, 78, 78, 0.08);
 }
 
 .portfolio-details .portfolio-info h3 {
@@ -1179,13 +1251,15 @@ a:hover {
   margin: 0 10px -6px 0;
   border: 3px solid #18d26e;
   border-top-color: #eee;
-  animation: animate-loading 1s linear infinite;
+  -webkit-animation: animate-loading 1s linear infinite;
+          animation: animate-loading 1s linear infinite;
 }
 
 .php-email-form input,
 .php-email-form textarea {
   border-radius: 0;
-  box-shadow: none;
+  -webkit-box-shadow: none;
+          box-shadow: none;
   font-size: 14px;
 }
 
@@ -1208,6 +1282,8 @@ a:hover {
   border: 0;
   padding: 10px 24px;
   color: #fff;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
   transition: 0.4s;
 }
 
@@ -1215,13 +1291,27 @@ a:hover {
   background: #3393ff;
 }
 
-@keyframes animate-loading {
+@-webkit-keyframes animate-loading {
   0% {
-    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
 
   100% {
-    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
   }
 }
 
@@ -1417,6 +1507,8 @@ a:hover {
 .sidebar-search input {
   background-color: #fff;
   border-radius: 0;
+  -webkit-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
 
