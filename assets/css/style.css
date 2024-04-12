@@ -481,9 +481,10 @@ a:hover {
 #header {
   -webkit-transition: all 0.5s;
   -o-transition: all 0.5s;
+  min-height:100px;
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
+  padding: 20px 0px 0px 0px;
 }
 
 #header .logo {
