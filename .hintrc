@@ -9,6 +9,14 @@
       {
         "image-alt": "off"
       }
-    ]
+    ],
+    "no-inline-styles": "off",
+    "axe/aria": [
+      "default",
+      {
+        "aria-progressbar-name": "off"
+      }
+    ],
+    "button-type": "off"
   }
 }

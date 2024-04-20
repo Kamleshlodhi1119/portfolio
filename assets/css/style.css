@@ -793,7 +793,7 @@ a:hover {
 # Hero Section
 --------------------------------------------------------------*/
 .hero {
-  height: 100vh;
+  height: 60vh;
   position: relative;
   color: #fff;
 }
@@ -822,13 +822,13 @@ a:hover {
 
 @media (min-width: 768px) {
   .hero .hero-title {
-    font-size: 4.5rem;
+    font-size: 2.5rem;
   }
 }
 
 .hero .hero-subtitle {
-  font-size: 1.5rem;
-  font-weight: 600;
+  font-size: 10px;
+  
 }
 
 @media (min-width: 768px) {
@@ -925,14 +925,14 @@ a:hover {
 --------------------------------------------------------------*/
 .service-box {
   background-color: #fff;
-  padding: 2.5rem 1.3rem;
+  padding: 2rem 1rem;
   border-radius: 1rem;
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
   text-align: center;
 }
 
 .service-box:hover {
-  font-family:Imprint MT Shadow ;
+ 
   text-shadow: 2px 2px 4px #ebef5ec6;
   -webkit-transition: all 500ms ease;
   -o-transition: all 500ms ease;
