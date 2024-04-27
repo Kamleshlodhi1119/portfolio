@@ -1,7 +1,12 @@
 # Portfolio
+# Portfolio
+
+!Screenshot 1
+!Screenshot 2
 
 
-![image]([https://github.com/Kamleshlodhi1119/portfolio/assets/111336085/96c3e837-4b05-451b-8d0b-c789ffa00962](https://portfolio-kamlesh-lodhi.netlify.app/))
+
+![image]((https://portfolio-kamlesh-lodhi.netlify.app/)[https://github.com/Kamleshlodhi1119/portfolio/assets/111336085/96c3e837-4b05-451b-8d0b-c789ffa00962])
 
 ![image]([https://github.com/Kamleshlodhi1119/portfolio/assets/111336085/609d7f58-d563-4054-b2e2-b2859f2727f3](https://portfolio-kamlesh-lodhi.netlify.app/))
 
