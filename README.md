@@ -6,13 +6,15 @@
 ![image](https://github.com/Kamleshlodhi1119/portfolio/assets/111336085/609d7f58-d563-4054-b2e2-b2859f2727f3)
 
 
+## 
+
 !VISITE MY PORTFOLIO : KAMLESH LODHI ( https://portfolio-kamlesh-lodhi.netlify.app/)
 
 This repository contains my personal portfolio website. It showcases my skills, projects, and resume.
 
 ## Features
 - Responsive design
-- Sections for About Me, Projects, Resume, and Contact
+- Sections for About Me, Projects, Resume, and Contact and Certificates
 - Links to my social profiles
 
 ## Technologies Used
