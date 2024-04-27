@@ -29,8 +29,5 @@ This repository contains my personal portfolio website. It showcases my skills, 
 1. Clone this repository: `git clone https://github.com/Kamleshlodhi1119/portfolio.git`
 2. Open `index.html` in your web browser to view the portfolio.
 
-Feel free to reach out to me on LinkedIn or Twitter.
+Feel free to reach out to me on LinkedIn or GitHub.
 
-The portfolio repository can be found on GitHub.
-
-If you have any questions or need further assistance, feel free to ask! 😊
